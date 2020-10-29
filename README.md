@@ -2,15 +2,15 @@
 
 The least-squares method of deriving statistics for the parameters of random variables works by minimising the "spread" of the variables around the expectation.  If we have n random variables (![](https://render.githubusercontent.com/render/math?math=X_i)) from a distribution with an expectation of ![](https://render.githubusercontent.com/render/math?math=\mathbb{E}(X)) this "spread" is defined as:
 
-![](https://render.githubusercontent.com/render/math?math=S^2=\frac{1}{n}\sum_{i=1}^{n}[X_i-\mathbb{E}(X)]^2
+![](https://render.githubusercontent.com/render/math?math=S^2=\frac{1}{n}\sum_{i=1}^{n}[X_i-\mathbb{E}(X)]^2)
 
 If the ![](https://render.githubusercontent.com/render/math?math=X_i) in this expression are Bernoulli random variables ![](https://render.githubusercontent.com/render/math?math=\mathbb{E}(X)=p) so that above expression is thus:
 
-![](https://render.githubusercontent.com/render/math?math=S^2=\frac{1}{n}\sum_{i=1}^{n}[X_i-p]^2
+![](https://render.githubusercontent.com/render/math?math=S^2=\frac{1}{n}\sum_{i=1}^{n}[X_i-p]^2)
 
 To obtain an estimator for p we find the value of p that minimises the above expression as shown below:
 
-![](https://render.githubusercontent.com/render/math?math=\frac{\textrm{d}S^2}{\textrm{d}p}= - \frac{2}{n}\sum_{i=1}^{n}[X_i-\mathbb{E}(X)]\qquad\rightarrow\qquad\p=\frac{1}{n}\sum_{i=1}^n X_i)
+![](https://render.githubusercontent.com/render/math?math=\frac{\textrm{d}S^2}{\textrm{d}p}=-\frac{2}{n}\sum_{i=1}^{n}[X_i-\mathbb{E}(X)]\qquad\rightarrow\qquad\p=\frac{1}{n}\sum_{i=1}^n X_i)
 
 To complete this exercise you need to write code in the panel on the left that shows how the estimator of for p depends on the number of samples it is computed from.  To complete the exercise you will need to
 
