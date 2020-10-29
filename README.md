@@ -10,7 +10,7 @@ If the ![](https://render.githubusercontent.com/render/math?math=X_i) in this ex
 
 To obtain an estimator for p we find the value of p that minimises the above expression as shown below:
 
-![](https://render.githubusercontent.com/render/math?math=\frac{\textrm{d}S^2}{\textrm{d}p}=-\frac{2}{n}\sum_{i=1}^{n}[X_i-\mathbb{E}(X)]\qquad\rightarrow\qquad\p=\frac{1}{n}\sum_{i=1}^n X_i)
+![](https://render.githubusercontent.com/render/math?math=\frac{\textrm{d}S^2}{\textrm{d}p}=-\frac{2}{n}\sum_{i=1}^{n}[X_i-\mathbb{E}(X)]\qquad\rightarrow\qquad\p=\frac{1}{n}\sum_{i=1}^{n}X_i)
 
 To complete this exercise you need to write code in the panel on the left that shows how the estimator of for p depends on the number of samples it is computed from.  To complete the exercise you will need to
 
